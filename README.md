@@ -3,7 +3,7 @@ A simple MiSTer FPGA Lightpen:
 ![alt text](https://github.com/Jokippo/Lightpen_MiSTer/blob/main/Images/RGB2XYZ_Pen.jpg?raw=true)
 ![alt text](https://github.com/Jokippo/Lightpen_MiSTer/blob/main/Images/Assembled_PCB.jpg?raw=true)
 
-This Lightpen is based on a OPL811-OC light sensor. The sensor and a button are directly connected to the user port. 
+This Lightpen is based on a OPL811-OC/OPL801-OC light sensor. The sensor and a button are directly connected to the user port. 
 
 Gerber files for the PCB and .stl files for the case are provided.
 
@@ -12,7 +12,8 @@ Gerber files for the PCB and .stl files for the case are provided.
 
 Parts:
 ```
-1x OPL811-OC available on mouser.com
+OPL801-OC and OPL811-OC should both work, the OPL801-OC needs a brighter CRT.
+1x OPL811-OC or OPL801-OC available on mouser.com
 1x 6x6x4.5mm tactile button
 1x Right angle 3 position 2.54mm header 
 2x 220ohm through hole resistor or 0603 SMD
